@@ -1,0 +1,25 @@
+{
+  "name": "slides",
+  "version": "0.0.0",
+  "description": "slides ======",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jarvys/slides.git"
+  },
+  "author": "Jarvys <yuhan534@126.com> (https://jarvys.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarvys/slides/issues"
+  },
+  "homepage": "https://github.com/jarvys/slides",
+  "devDependencies": {
+    "gulp": "^3.8.9",
+    "gulp-concat": "^2.4.1",
+    "gulp-if": "^1.2.5",
+    "gulp-uglify": "^1.0.1"
+  }
+}
