@@ -2,6 +2,9 @@ import os
 
 BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'logs')
 
+if not os.path.exists(BASE_DIR):
+    os.makedirs(BASE_DIR)
+
 LOGGING = {
     'version': 1,
     'dusable_existing_loggers': True,
